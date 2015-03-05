@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+html{
+	height: 100%;
+}
+body {
+
+	background: url('../img/arbre.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#map_canvas {
+
+	width: 800px;
+	min-height: 600px;
+	margin: auto;
+}
+
+form {
+
+	margin: auto;
+	width: 10%;
+	padding: 2%;
+	background-color: rgba(160,82,45, 0.5);
+	text-align: center;
+}
+
+#panel {
+
+	text-align: center;
+}
+
+h1 {
+
+	font-size: 2em;
+	padding: 2%;
+	background-color: rgba(160,82,45, 0.5);
+	text-transform: uppercase;
+}
+
+.champignon {
+
+	background-color: rgba(160,82,45, 0.5);
+}
+
+.champignon input {
+
+	background-color: red;
+	color: white;
+}
+
+.champignon p {
+
+	font-size: 1.2em;
+}
+
+button {
+
+	background-color:rgba(160,82,45, 0.5);
+}
+
+.champignon a {
+
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+
+	color: red;
+
+}
+
+.haut ul {
+
+	width: 100%;
+	background-color: rgba(250,117,1, 0.2);
+	float: left;
+}
+
+.haut ul li {
+
+		display: inline;
+		padding: 2%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
