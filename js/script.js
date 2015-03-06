@@ -128,7 +128,7 @@ function girolle(){
       map: map,
       center: citymap[city].center,
       radius: Math.sqrt(citymap[city].population) * 100
-    };
+   };
     cityCircle = new google.maps.Circle(populationOptions);
   }
 }
@@ -138,7 +138,7 @@ function clavaire(){
   var elem = document.getElementById("map_canvas");
 
   var citymap = {};
-  citymap['australie'] = {
+ citymap['australie'] = {
     center: new google.maps.LatLng(-26.4390743,133.281323),
     population: 8405837
   };

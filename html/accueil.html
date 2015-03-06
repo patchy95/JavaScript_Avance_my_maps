@@ -6,6 +6,7 @@
   <meta name="description" content="Choississez votre itinéraire ainsi que les options souhaité !"/>
   <link rel='stylesheet' href='../css/new_style.css' type='text/css' />
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" href="../img/champfav.ico">
 
 </head>
     <div class="haut"><h1>Champy-Maps</h1>
@@ -18,7 +19,6 @@
     <div id="map_canvas"></div>
       <button name="fullscreen" id="full">Fullscreen</button>
       <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-      <script src="../js/script.js"></script>
     </div>
 
     <div id="destinationForm">
@@ -37,13 +37,14 @@
         <p>en cliquant çi-dessous</p>
         <a href="accueil.html">Réinitialiser</a>
       <ul>
-        <li><input type="button" value="girolle" onclick="javascript:girolle()"></li>
-        <li><input type="button" value="Lactarius indigo" onclick="javascript:Lactarius()"></li>
-        <li><input type="button" value="Clavaire de Zollinger" onclick="javascript:clavaire()"></li>
+        <li><img src="../img/girolle.png" width="2%" /><input type="button" value="girolle" onclick="javascript:girolle()"></li>
+        <li><img src="../img/lact.png" width="2%" /><input type="button" value="Lactarius indigo" onclick="javascript:Lactarius()"></li>
+        <li><img src="../img/clav.png" width="2%" /><input type="button" value="Clavaire de Zollinger" onclick="javascript:clavaire()"></li>
       </ul>
     </div>
  
 <div id="panel"></div>
  </div>
+      <script type="text/javascript" src="../js/script.js"></script>
 </body>
 </html>
