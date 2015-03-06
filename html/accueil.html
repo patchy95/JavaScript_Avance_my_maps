@@ -9,20 +9,19 @@
     <link rel="shortcut icon" href="../img/champfav.ico">
 
 </head>
+<body>
     <div class="haut"><h1>Champy-Maps</h1>
      <ul>
         <li><a href="index.html">Accueil</a></li>
         <li><a href="accueil.html">Champi-Maps</a></li>
       </ul>
     </div>
-<body onload="initialize()">
     <div id="map_canvas"></div>
       <button name="fullscreen" id="full">Fullscreen</button>
       <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    </div>
 
     <div id="destinationForm">
-     <form action="" method="get" name="direction" id="direction">
+     <form action="#" method="get" name="direction" id="direction">
          <label>Point de départ :</label>
          <input type="text" name="origin" id="origin">
          <label>Destination :</label>
@@ -37,8 +36,8 @@
         <p>en cliquant çi-dessous</p>
         <a href="accueil.html">Réinitialiser</a>
       <ul>
-        <li><img src="../img/girolle.png" width="2%" /><input type="button" value="girolle" onclick="javascript:girolle()"></li>
-        <li><img src="../img/lact.png" width="2%" /><input type="button" value="Lactarius indigo" onclick="javascript:Lactarius()"></li>
+        <li><img src="../img/girolle.png" width="2%"/><input type="button" value="girolle" onclick="javascript:girolle()"></li>
+        <li><img src="../img/lact.png" width="2%"/><input type="button" value="Lactarius indigo" onclick="javascript:Lactarius()"></li>
         <li><img src="../img/clav.png" width="2%" /><input type="button" value="Clavaire de Zollinger" onclick="javascript:clavaire()"></li>
       </ul>
     </div>

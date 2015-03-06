@@ -25,6 +25,11 @@ var destination;
 var origin;
 var populationOptions;
 
+if (window.addEventListener) {
+    window.addEventListener('load', initialize, false);
+} else {
+    window.attachEvent('onload', initialize);
+}
 
 function initialize() {
     map = new google.maps.Map(document.getElementById("map_canvas"),
