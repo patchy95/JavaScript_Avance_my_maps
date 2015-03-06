@@ -1,4 +1,4 @@
-/*global google*/
+/*global google, */
 /*jslint browser:true node:true*/
 "use strict";
 var map;
@@ -95,7 +95,7 @@ function Lactarius() {
         center: new google.maps.LatLng(37.5, -110.3),
         population: 2714856
     };
-    citymap['asie'] = {
+    citymap[{city: 'asie'}] = {
         center: new google.maps.LatLng(8.7197676, 116.607154),
         population: 2714856
     };
@@ -103,6 +103,7 @@ function Lactarius() {
         center: new google.maps.LatLng(12.768421, -84.714944),
         population: 2714856
     };
+    var city;
     for (city in citymap) {
         populationOptions = {
             strokeColor: '#0000FF',
@@ -120,12 +121,12 @@ function Lactarius() {
 function girolle() {
     elem = document.getElementById("map_canvas");
     citymap = [];
-    citymap['morbihan'] = {
+    citymap[{city: 'morbihan'}] = {
         center: new google.maps.LatLng(47.744376, -2.8851265),
         population: 2714856
     };
 
-    citymap['corse'] = {
+    citymap[{city: 'corse'}] = {
         center: new google.maps.LatLng(42.1805878, 9.0473778),
         population: 8405837
     };
@@ -147,7 +148,7 @@ function girolle() {
 function clavaire() {
     elem = document.getElementById("map_canvas");
     var citymap = [];
-    citymap['australie'] = {
+    citymap[{city: 'australie'}] = {
         center: new google.maps.LatLng(-26.4390743, 133.281323),
         population: 8405837
     };
@@ -163,10 +164,11 @@ function clavaire() {
         center: new google.maps.LatLng(-21.7351043, -63.28125),
         population: 8405837
     };
-    citymap['danemark'] = {
+    citymap[{city: 'danemark'}] = {
         center: new google.maps.LatLng(55.9396761, 9.5155848),
         population: 8405837
     };
+
     for (city in citymap) {
         populationOptions = {
             strokeColor: '#FF1493',
